@@ -44,9 +44,9 @@ module.exports = () => {
         crossorigin: "use-credentials", // or 'anonymous' if needed
         icons: [
           {
-            src: path.resolve("src/images/icon.png"), // Replace with your icon path
+            src: path.resolve("src/images/logo.png"), // Replace with your icon path
             destination: path.join("assets", "icons"),
-            sizes: [16, 32, 96],
+            sizes: [16, 32, 96, 144],
           },
         ],
       }),
